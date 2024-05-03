@@ -56,7 +56,7 @@ const Events = () => {
                 </p>
                 <CgArrowLongRight className='text-3xl' />
             </div>
-            <div className='h-[32rem] overflow-x-auto no-scrollbar grid   grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  '>
+            <div className='h-[45rem] overflow-x-auto no-scrollbar grid   grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  '>
                 {data.map((el, index) => (
                     <div key={index} className='border relative border-[#B0BABF] rounded-xl p-1  w-fit mt-10 '>
                         <img className='w-[26rem]' src={`https://drive.google.com/thumbnail?id=${el.imgUrl.slice(32, 65)}&sz=w500`} alt="Loading..." />
